@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/block_employ_dapp_backend"
+]
+resolver = "2"

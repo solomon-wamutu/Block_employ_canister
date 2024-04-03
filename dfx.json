@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "block_employ_dapp_backend": {
+      "candid": "src/block_employ_dapp_backend/block_employ_dapp_backend.did",
+      "package": "block_employ_dapp_backend",
+      "type": "rust"
+    },
+    "block_employ_dapp_frontend": {
+      "dependencies": [
+        "block_employ_dapp_backend"
+      ],
+      "source": [
+        "src/block_employ_dapp_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "block_employ_dapp_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
