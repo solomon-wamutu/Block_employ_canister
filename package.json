@@ -14,5 +14,8 @@
   "type": "module",
   "workspaces": [
     "src/block_employ_dapp_frontend"
-  ]
+  ],
+  "devDependencies": {
+    "sass": "^1.72.0"
+  }
 }

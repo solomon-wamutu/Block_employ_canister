@@ -33,8 +33,10 @@ class App {
     render(body, document.getElementById('root'));
     document
       .querySelector('form')
-      .addEventListener('submit', this.#handleSubmit);
-  }
+      .addEventListener('submit', this.#handleSubmit); 
+  }     
+
+
 }
 
 export default App;
